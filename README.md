@@ -23,6 +23,9 @@ tags:
   - practice-directions
   - ai-governance
   - generative-ai
+  - courts
+  - ai-regulation
+  - ai-safety
   - safelegalai
 configs:
   - config_name: documents
@@ -81,9 +84,25 @@ from datasets import load_dataset
 ds = load_dataset("safelegalaidata/legal-ai-regulation-documents", "documents")
 ```
 
+## Uses
+
+**Suited to:** counting and comparing what the record shows (by court, jurisdiction, date, actor, outcome, status); building watch-lists and alerts from the `url` and last-checked fields; grounding retrieval or summarisation on cited primary documents; teaching and library guides that need a dated, sourced list.
+
+**Not suited to:** ranking products, people or courts; inferring prevalence beyond what a court or regulator has itself stated; any use that treats a coding column as a finding of fact or law. Where a row names a person or organisation it does so as they appear in a public document; anyone named may request a correction or right of reply at https://safelegalai.com/report.
+
 ## Cite
 
 > SafeLegalAI (published by Cognesio LLP), "Legal AI Regulation Documents (versioned)", safelegalai.com, accessed 2026-09-08. https://safelegalai.com/regulation/documents — data: CC BY 4.0.
+
+```bibtex
+@dataset{safelegalai_legal_ai_regulation_documents_2026_09_08,
+  title        = {Legal AI Regulation Documents (versioned)},
+  author       = {{SafeLegalAI (Cognesio LLP)}},
+  year         = {2026},
+  url          = {https://safelegalai.com/regulation/documents},
+  note         = {Mirror: https://huggingface.co/datasets/safelegalaidata/legal-ai-regulation-documents. Data CC BY 4.0. Last checked 2026-09-06.}
+}
+```
 
 Cite the primary source as the authority and this dataset as the structured record that surfaced it. Corrections and right of reply: [safelegalai.com/report](https://safelegalai.com/report).
 
