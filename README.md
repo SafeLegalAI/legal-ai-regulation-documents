@@ -43,7 +43,7 @@ configs:
 
 **Which official texts govern AI in legal practice, what do they require, and how have they changed?**
 
-515 documents · 560 versions tracked · 17 jurisdictions · last checked 2026-09-06 · synced from [safelegalai.com](https://safelegalai.com) on 2026-09-08.
+519 documents · 567 versions tracked · 17 jurisdictions · last checked 2026-09-22 · synced from [safelegalai.com](https://safelegalai.com) on 2026-10-05.
 
 Every court rule, practice direction, standing order, ethics opinion, statute, regulation, policy, consultation and guidance document on AI in legal practice that we have verified — one row per document, with who issued it, whom it binds, what it requires, its effective date, and every revision as a version entry with a change note. This is the granular layer beneath the country map.
 
@@ -53,8 +53,8 @@ This is a mirror. The canonical, always-current version lives at **[safelegalai.
 
 | config | rows | what a row is | files |
 |---|---|---|---|
-| `documents` | 515 | one row per official document, version history nested | [`data/documents.jsonl`](data/documents.jsonl) · [`csv/documents.csv`](csv/documents.csv) |
-| `versions` | 560 | long format — one row per document version with its date, source URL, archive URL and change note | [`data/versions.jsonl`](data/versions.jsonl) · [`csv/versions.csv`](csv/versions.csv) |
+| `documents` | 519 | one row per official document, version history nested | [`data/documents.jsonl`](data/documents.jsonl) · [`csv/documents.csv`](csv/documents.csv) |
+| `versions` | 567 | long format — one row per document version with its date, source URL, archive URL and change note | [`data/versions.jsonl`](data/versions.jsonl) · [`csv/versions.csv`](csv/versions.csv) |
 
 ## Fields
 
@@ -92,15 +92,15 @@ ds = load_dataset("safelegalaidata/legal-ai-regulation-documents", "documents")
 
 ## Cite
 
-> SafeLegalAI (published by Cognesio LLP), "Legal AI Regulation Documents (versioned)", safelegalai.com, accessed 2026-09-08. https://safelegalai.com/regulation/documents — data: CC BY 4.0.
+> SafeLegalAI (published by SafeLegalAI), "Legal AI Regulation Documents (versioned)", safelegalai.com, accessed 2026-10-05. https://safelegalai.com/regulation/documents — data: CC BY 4.0.
 
 ```bibtex
-@dataset{safelegalai_legal_ai_regulation_documents_2026_09_08,
+@dataset{safelegalai_legal_ai_regulation_documents_2026_10_05,
   title        = {Legal AI Regulation Documents (versioned)},
-  author       = {{SafeLegalAI (Cognesio LLP)}},
+  author       = {{SafeLegalAI (SafeLegalAI)}},
   year         = {2026},
   url          = {https://safelegalai.com/regulation/documents},
-  note         = {Mirror: https://huggingface.co/datasets/safelegalaidata/legal-ai-regulation-documents. Data CC BY 4.0. Last checked 2026-09-06.}
+  note         = {Mirror: https://huggingface.co/datasets/safelegalaidata/legal-ai-regulation-documents. Data CC BY 4.0. Last checked 2026-09-22.}
 }
 ```
 
@@ -108,11 +108,11 @@ Cite the primary source as the authority and this dataset as the structured reco
 
 ## Licence
 
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Attribution: **SafeLegalAI (safelegalai.com), published by Cognesio LLP** with a link to https://safelegalai.com/regulation/documents. Primary sources keep their own licences and copyright.
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Attribution: **SafeLegalAI (safelegalai.com), published by SafeLegalAI** with a link to https://safelegalai.com/regulation/documents. Primary sources keep their own licences and copyright.
 
 ## Disclaimer and notices
 
-**Provided "as is", without warranty of any kind** — the CC BY 4.0 licence excludes all warranties and limits liability (section 5), and those exclusions apply to this dataset. **Not legal advice**; no lawyer–client relationship arises from using it. Cognesio LLP is not a law firm. SafeLegalAI records findings made by courts, regulators and vendors' own published pages; it makes no findings of its own, and the linked official documents are the record. Editorial classifications (status labels, requirement codes, "documented yes/no/not disclosed") are opinions about documents, expressed in good faith; the document prevails. Where a row names a person or organisation, it does so as they appear in a public court document, official publication or their own published material — a fair and accurate report published in good faith and in the public interest; anyone named may reply or request a correction at https://safelegalai.com/report. Product, company, court and regulator names and marks belong to their owners and identify the product or body referred to; no affiliation or endorsement is implied. Full terms and notice-and-takedown: https://safelegalai.com/disclaimer.
+**Provided "as is", without warranty of any kind** — the CC BY 4.0 licence excludes all warranties and limits liability (section 5), and those exclusions apply to this dataset. **Not legal advice**; no lawyer–client relationship arises from using it. SafeLegalAI is not a law firm. SafeLegalAI records findings made by courts, regulators and vendors' own published pages; it makes no findings of its own, and the linked official documents are the record. Editorial classifications (status labels, requirement codes, "documented yes/no/not disclosed") are opinions about documents, expressed in good faith; the document prevails. Where a row names a person or organisation, it does so as they appear in a public court document, official publication or their own published material — a fair and accurate report published in good faith and in the public interest; anyone named may reply or request a correction at https://safelegalai.com/report. Product, company, court and regulator names and marks belong to their owners and identify the product or body referred to; no affiliation or endorsement is implied. Full terms and notice-and-takedown: https://safelegalai.com/disclaimer.
 
 ## Related datasets
 
@@ -129,16 +129,16 @@ Cite the primary source as the authority and this dataset as the structured reco
   "canonical": "https://safelegalai.com/regulation/documents",
   "source": "https://safelegalai.com/regulation/documents.json",
   "catalogue": "https://safelegalai.com/datasets",
-  "publisher": "Cognesio LLP",
+  "publisher": "SafeLegalAI",
   "license": "CC BY 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-  "lastChecked": "2026-09-06",
-  "synced": "2026-09-08",
+  "lastChecked": "2026-09-22",
+  "synced": "2026-10-05",
   "notice": "Provided as is, without warranty; not legal advice. SafeLegalAI records findings made by courts, regulators and vendors' own pages; the linked official documents are the record. Names and marks belong to their owners. Terms: https://safelegalai.com/disclaimer",
   "tables": {
-    "documents": 515,
-    "versions": 560
+    "documents": 519,
+    "versions": 567
   },
-  "contentSha256": "b0c2ea5ed709fbf322046e05fbd51d68b0c760fc5ac5487b999403de7ae7432b"
+  "contentSha256": "6359021839e83364ffefa11fa051494cadac45d98a10648332f1cf9d0a970404"
 }
 ```
