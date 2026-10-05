@@ -43,7 +43,7 @@ configs:
 
 **Which official texts govern AI in legal practice, what do they require, and how have they changed?**
 
-519 documents · 567 versions tracked · 17 jurisdictions · last checked 2026-09-22 · synced from [safelegalai.com](https://safelegalai.com) on 2026-10-05.
+522 documents · 573 versions tracked · 17 jurisdictions · last checked 2026-10-05 · synced from [safelegalai.com](https://safelegalai.com) on 2026-10-05.
 
 Every court rule, practice direction, standing order, ethics opinion, statute, regulation, policy, consultation and guidance document on AI in legal practice that we have verified — one row per document, with who issued it, whom it binds, what it requires, its effective date, and every revision as a version entry with a change note. This is the granular layer beneath the country map.
 
@@ -53,8 +53,8 @@ This is a mirror. The canonical, always-current version lives at **[safelegalai.
 
 | config | rows | what a row is | files |
 |---|---|---|---|
-| `documents` | 519 | one row per official document, version history nested | [`data/documents.jsonl`](data/documents.jsonl) · [`csv/documents.csv`](csv/documents.csv) |
-| `versions` | 567 | long format — one row per document version with its date, source URL, archive URL and change note | [`data/versions.jsonl`](data/versions.jsonl) · [`csv/versions.csv`](csv/versions.csv) |
+| `documents` | 522 | one row per official document, version history nested | [`data/documents.jsonl`](data/documents.jsonl) · [`csv/documents.csv`](csv/documents.csv) |
+| `versions` | 573 | long format — one row per document version with its date, source URL, archive URL and change note | [`data/versions.jsonl`](data/versions.jsonl) · [`csv/versions.csv`](csv/versions.csv) |
 
 ## Fields
 
@@ -100,7 +100,7 @@ ds = load_dataset("safelegalaidata/legal-ai-regulation-documents", "documents")
   author       = {{SafeLegalAI (SafeLegalAI)}},
   year         = {2026},
   url          = {https://safelegalai.com/regulation/documents},
-  note         = {Mirror: https://huggingface.co/datasets/safelegalaidata/legal-ai-regulation-documents. Data CC BY 4.0. Last checked 2026-09-22.}
+  note         = {Mirror: https://huggingface.co/datasets/safelegalaidata/legal-ai-regulation-documents. Data CC BY 4.0. Last checked 2026-10-05.}
 }
 ```
 
@@ -132,13 +132,13 @@ Cite the primary source as the authority and this dataset as the structured reco
   "publisher": "SafeLegalAI",
   "license": "CC BY 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-  "lastChecked": "2026-09-22",
+  "lastChecked": "2026-10-05",
   "synced": "2026-10-05",
   "notice": "Provided as is, without warranty; not legal advice. SafeLegalAI records findings made by courts, regulators and vendors' own pages; the linked official documents are the record. Names and marks belong to their owners. Terms: https://safelegalai.com/disclaimer",
   "tables": {
-    "documents": 519,
-    "versions": 567
+    "documents": 522,
+    "versions": 573
   },
-  "contentSha256": "6359021839e83364ffefa11fa051494cadac45d98a10648332f1cf9d0a970404"
+  "contentSha256": "d066e0a1e078a3e46366fe301e4f914e898d747c9579ae3ba66fe77bc8170b13"
 }
 ```
