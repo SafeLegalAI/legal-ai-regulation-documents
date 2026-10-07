@@ -43,7 +43,7 @@ configs:
 
 **Which official texts govern AI in legal practice, what do they require, and how have they changed?**
 
-522 documents · 573 versions tracked · 17 jurisdictions · last checked 2026-10-05 · synced from [safelegalai.com](https://safelegalai.com) on 2026-10-05.
+522 documents · 573 versions tracked · 17 jurisdictions · last checked 2026-10-07 · synced from [safelegalai.com](https://safelegalai.com) on 2026-10-07.
 
 Every court rule, practice direction, standing order, ethics opinion, statute, regulation, policy, consultation and guidance document on AI in legal practice that we have verified — one row per document, with who issued it, whom it binds, what it requires, its effective date, and every revision as a version entry with a change note. This is the granular layer beneath the country map.
 
@@ -92,15 +92,15 @@ ds = load_dataset("safelegalaidata/legal-ai-regulation-documents", "documents")
 
 ## Cite
 
-> SafeLegalAI (published by SafeLegalAI), "Legal AI Regulation Documents (versioned)", safelegalai.com, accessed 2026-10-05. https://safelegalai.com/regulation/documents — data: CC BY 4.0.
+> SafeLegalAI (published by SafeLegalAI), "Legal AI Regulation Documents (versioned)", safelegalai.com, accessed 2026-10-07. https://safelegalai.com/regulation/documents — data: CC BY 4.0.
 
 ```bibtex
-@dataset{safelegalai_legal_ai_regulation_documents_2026_10_05,
+@dataset{safelegalai_legal_ai_regulation_documents_2026_10_07,
   title        = {Legal AI Regulation Documents (versioned)},
   author       = {{SafeLegalAI (SafeLegalAI)}},
   year         = {2026},
   url          = {https://safelegalai.com/regulation/documents},
-  note         = {Mirror: https://huggingface.co/datasets/safelegalaidata/legal-ai-regulation-documents. Data CC BY 4.0. Last checked 2026-10-05.}
+  note         = {Mirror: https://huggingface.co/datasets/safelegalaidata/legal-ai-regulation-documents. Data CC BY 4.0. Last checked 2026-10-07.}
 }
 ```
 
@@ -132,13 +132,13 @@ Cite the primary source as the authority and this dataset as the structured reco
   "publisher": "SafeLegalAI",
   "license": "CC BY 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-  "lastChecked": "2026-10-05",
-  "synced": "2026-10-05",
+  "lastChecked": "2026-10-07",
+  "synced": "2026-10-07",
   "notice": "Provided as is, without warranty; not legal advice. SafeLegalAI records findings made by courts, regulators and vendors' own pages; the linked official documents are the record. Names and marks belong to their owners. Terms: https://safelegalai.com/disclaimer",
   "tables": {
     "documents": 522,
     "versions": 573
   },
-  "contentSha256": "d066e0a1e078a3e46366fe301e4f914e898d747c9579ae3ba66fe77bc8170b13"
+  "contentSha256": "0e68b93ebc71119bfb0b152a66b3ca2b4dea9acf1b7fe8800d1d9f85446a0aec"
 }
 ```
